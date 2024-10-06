@@ -14,7 +14,9 @@ body {
 */
 
 #cimsor {
-    background-color: #776483;
+    background-color: #44426E;
+    background-image: linear-gradient(to right, #776483, #44426E);
+
     color: #E99E75;
 
     position: fixed;
@@ -58,4 +60,77 @@ body {
 
 #bemutatkozas h2 {
     color: #E99E75;
+}
+
+#menu {
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    max-width: fit-content;
+}
+
+#menu a {
+    text-align: center;
+
+    max-width: 5rem;
+    margin: 0 3rem;
+    padding: 1rem 2rem;
+}
+
+#menu a:link {
+    text-decoration: none;
+
+    color: #292643;
+    background-color: #776483;
+
+    font-weight: bold;
+    font-size: larger;
+
+    border-radius: 3rem;
+    box-shadow: #100e1a 0 0 20px 0;
+}
+
+#menu a:hover {
+    background-color: #E99E75;
+    color: #44426E;
+}
+
+#menu a:visited {
+    color: #292643;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+    #menu a:link {
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 2rem;
+        padding: 1rem 1rem;
+        min-width: fit-content;
+    }
+  }
+
+.doboz {
+    margin: 2rem 0;
+    border: #44426E solid 5px;
+    border-radius: 20px;
+    background-color: #44426E;
+    box-shadow: #100e1a 0 0 40px 0;
+    padding: 1rem 3rem;
+}
+
+.doboz h2 {
+    color: #E99E75;
+    text-align: center;
+}
+
+.doboz ul {
+    margin: auto;
+    max-width: fit-content;
+}
+
+.doboz a {
+    color: #E99E75 ;
+    padding-left: 2rem;
 }
