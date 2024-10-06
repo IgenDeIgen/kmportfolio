@@ -1,3 +1,30 @@
 body {
+    background-color: #223C63;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*
+    Mandarin: F6724B
+    Coral: FC8A55
+    Spicy mix: 8F4E51
+    Outer Space: 2B3349
+    Indogo: 223C63
+*/
+
+#cimsor {
     background-color: #2B3349;
+    
+    color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+    padding: 0;
+}
+
+#cimsor h1 {
+    padding: 0 4%;
+    font-weight: bold;
 }
