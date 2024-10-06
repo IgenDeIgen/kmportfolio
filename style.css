@@ -134,3 +134,8 @@ body {
     color: #E99E75 ;
     padding-left: 2rem;
 }
+
+#kaja-kep {
+    max-width: 30rem;
+    width: 80%;
+}
